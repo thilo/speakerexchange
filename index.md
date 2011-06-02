@@ -10,7 +10,6 @@ We are in the process of setting up the project. A work in progress description 
 The following user groups have joined so far:
 
 * [Amsterdam - Netherlands](http://amsterdam-rb.org/) (Josh Kalderimis)
-* Barcelona - Spain (Christian Amor)
 * [Berlin - Germany] (http://rug-b.de) (Thilo Utke)
 * [Edinburgh - Scotland](http://scotrug.org/) (Paul Wilson)
 * [London - UK](http://lrug.org/) (Murray Steele)
