@@ -16,9 +16,10 @@ The following user groups have joined so far:
 
 If you want to support the exchange by sponsoring or participation please join the [Google Group](http://groups.google.com/group/usergroup-speaker-exchange).
 
-# Updates
 
-{% for post in site.posts %}
+## Recent updates
+
+{% for post in site.posts limit:1%}
 
 ### {{post.title}}
 <p class="meta">published {{post.date | date: "%B %d, %Y"}}</p>
@@ -26,4 +27,7 @@ If you want to support the exchange by sponsoring or participation please join t
 {{post.content}}
 
 {% endfor %}
+
+
+<a id="archive" href="/archiv.html">&raquo; more updates</a>
 
