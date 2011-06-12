@@ -5,13 +5,18 @@
 }
 
 /* line 12, ../src/site.sass */
+p {
+  margin-bottom: 1em;
+}
+
+/* line 15, ../src/site.sass */
 body {
   font-family: trebuchet ms, arial, clean, sans-serif;
   background: #444433;
   color: black;
 }
 
-/* line 17, ../src/site.sass */
+/* line 20, ../src/site.sass */
 #wrapper {
   width: 50em;
   margin: 3em auto 0;
@@ -21,7 +26,7 @@ body {
   border-radius: 2em;
 }
 
-/* line 25, ../src/site.sass */
+/* line 28, ../src/site.sass */
 #header {
   font-family: Trebuchet;
   background: #222222;
@@ -35,27 +40,27 @@ body {
   padding: 2em;
   text-align: center;
 }
-/* line 37, ../src/site.sass */
+/* line 40, ../src/site.sass */
 #header h1 {
   font-size: 3em;
   color: white;
 }
 
-/* line 41, ../src/site.sass */
+/* line 44, ../src/site.sass */
 #navigation {
   background: #442288;
 }
-/* line 43, ../src/site.sass */
+/* line 46, ../src/site.sass */
 #navigation ul {
   list-style: none;
   margin: 0;
   text-align: left;
 }
-/* line 47, ../src/site.sass */
+/* line 50, ../src/site.sass */
 #navigation ul li {
   display: inline;
 }
-/* line 49, ../src/site.sass */
+/* line 52, ../src/site.sass */
 #navigation ul li a {
   color: white;
   font-size: 1.2em;
@@ -63,39 +68,39 @@ body {
   line-height: 2em;
 }
 
-/* line 55, ../src/site.sass */
+/* line 58, ../src/site.sass */
 #content {
   padding: 2em;
 }
-/* line 57, ../src/site.sass */
+/* line 60, ../src/site.sass */
 #content h1 {
   font-size: 1.5em;
   color: black;
   margin: 0 0 1em;
 }
-/* line 61, ../src/site.sass */
+/* line 64, ../src/site.sass */
 #content h2 {
   font-size: 1.2em;
   color: black;
   margin: 1em 0 1em 0;
 }
-/* line 65, ../src/site.sass */
+/* line 68, ../src/site.sass */
 #content h3 {
   font-size: 1em;
   color: black;
   margin: 0 0 1em 0;
 }
-/* line 70, ../src/site.sass */
+/* line 73, ../src/site.sass */
 #content ul {
   margin: 0.5em 0 0.5em 2em;
 }
 
-/* line 73, ../src/site.sass */
+/* line 76, ../src/site.sass */
 .clearer {
   clear: both;
 }
 
-/* line 76, ../src/site.sass */
+/* line 79, ../src/site.sass */
 #footer {
   background: #442288;
   -moz-border-radius-bottomleft: 1em;
@@ -109,17 +114,17 @@ body {
   color: white;
   padding: 1em;
 }
-/* line 88, ../src/site.sass */
+/* line 91, ../src/site.sass */
 #footer ul {
   list-style: none;
   margin: 0;
   text-align: left;
 }
-/* line 92, ../src/site.sass */
+/* line 95, ../src/site.sass */
 #footer ul li {
   display: inline;
 }
-/* line 94, ../src/site.sass */
+/* line 97, ../src/site.sass */
 #footer ul li a {
   color: white;
   font-size: 1em;
@@ -127,19 +132,19 @@ body {
   line-height: 1em;
 }
 
-/* line 100, ../src/site.sass */
+/* line 103, ../src/site.sass */
 #archive {
   float: right;
   margin: 1.5em 0 1em 0;
   padding: 1em;
 }
 
-/* line 105, ../src/site.sass */
+/* line 108, ../src/site.sass */
 ul#archive {
   list-style-type: none;
   float: left;
 }
-/* line 108, ../src/site.sass */
+/* line 111, ../src/site.sass */
 ul#archive li {
   line-height: 1.5em;
   margin-left: 15px;

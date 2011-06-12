@@ -5,5 +5,8 @@ title: About
 
 # About
 
-Has to be written ...
+Site maintained by Thilo Utke - Ruby Berlin e.V.
+
+Design by Matthias Günther
+
 

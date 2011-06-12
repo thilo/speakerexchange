@@ -13,6 +13,10 @@ The following user groups have joined so far:
 * [Berlin - Germany] (http://rug-b.de) (Thilo Utke)
 * [Edinburgh - Scotland](http://scotrug.org/) (Paul Wilson)
 * [London - UK](http://lrug.org/) (Murray Steele)
+* [Surrey - UK](http://surreyrubyists.tumblr.com)
+* [Tallinn - Estonia](http://ruby.ee/en) (Priit Tamboom)
+
+
 
 If you want to support the exchange by sponsoring or participation please join the [Google Group](http://groups.google.com/group/usergroup-speaker-exchange).
 
@@ -29,5 +33,5 @@ If you want to support the exchange by sponsoring or participation please join t
 {% endfor %}
 
 
-<a id="archive" href="/archiv.html">&raquo; more updates</a>
+<a id="archive" href="/archive.html">&raquo; more updates</a>
 
