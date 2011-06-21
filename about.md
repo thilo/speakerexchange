@@ -5,7 +5,7 @@ title: About
 
 # About
 
-Site maintained by:
+Site maintained by:<br/>
 Lukas Rieder<br/>
 Ruby Berlin e.V.<br/>
 Adalbertstrasse 7 - 8<br/>
