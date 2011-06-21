@@ -1,4 +1,4 @@
 safe: true
-source: git://github.com/thilo/speakerexchange.git
+source: .
 lsi: false
 pygments: true
