@@ -25,10 +25,16 @@ The following user groups have joined so far:
 * [Surrey - UK](http://surreyrubyists.tumblr.com)
 * [Tallinn - Estonia](http://ruby.ee/en) (Priit Tamboom)
 
+## Contribute to the Ruby User Group Speaker Exchange
 
+The Exchange is just about to start so there is still much help needed to get it of the ground.
 
-If you want to support the exchange by sponsoring or participation please join the [Google Group](http://groups.google.com/group/usergroup-speaker-exchange).
+There are two ways to support the Ruby User Group Speaker Exchange:
 
+* As a volunteer, e.g. helping out with the website, getting new sponsors, being a free roaming speaker (traveling and speak at your own expenses), accommodate travelling speakers, etc.
+* As a sponsor, to help us pay for flights and accommodation for traveling speakers
+
+If you want to support the exchange get in touch via the user group [Google Group](http://groups.google.com/group/usergroup-speaker-exchange) or write an email to thilo at upstre dot am.
 
 ## Recent updates
 

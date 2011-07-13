@@ -1,9 +1,9 @@
 ---
 layout: default
-title: About
+title: Imprint
 ---
 
-# About
+# imprint
 
 Site maintained by:<br/>
 Lukas Rieder<br/>
