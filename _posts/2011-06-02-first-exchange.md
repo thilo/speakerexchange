@@ -3,8 +3,10 @@ layout: default
 title: First Exchange
 ---
 
+<cite>
 "The World is a book, and those who do not travel read only a page."
--- Saint Augustine
+&mdash; Saint Augustine
+</cite>
 
 In June Martin Rehfeld, member of the [Ruby User Group (Rug::B)](http://rug-b.de), will travel over the North Sea to present at the [Scottish Ruby User Group](http://scotrug.org/) in Edinburgh. 
 

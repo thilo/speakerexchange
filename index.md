@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Index
+title: Welcome to the Ruby User Group Speaker Exchange
 ---
-
-# Welcome to the Ruby User Group Speaker Exchange
 
 The Ruby User Group Speaker Exchange connects Ruby User Groups throughout Europe. What does this mean?
 
@@ -13,6 +11,8 @@ The Ruby User Group Speaker Exchange connects Ruby User Groups throughout Europe
 * Build speaker confidence by giving inexperienced speakers the opportunity to talk to a international audience before appearing at big conferences.
 * Bring the Ruby community closer together
 * Making user groups more attractive to new members
+
+
 
 The following user groups have joined so far:
 
@@ -27,19 +27,3 @@ The following user groups have joined so far:
 
 
 If you want to support the exchange by sponsoring or participation please join the [Google Group](http://groups.google.com/group/usergroup-speaker-exchange).
-
-
-## Recent updates
-
-{% for post in site.posts limit:1%}
-
-### {{post.title}}
-<p class="meta">published {{post.date | date: "%B %d, %Y"}}</p>
-
-{{post.content}}
-
-{% endfor %}
-
-
-<a id="archive" href="/archive.html">&raquo; more updates</a>
-
