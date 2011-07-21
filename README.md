@@ -8,3 +8,11 @@
  * go to `http://localhost:4000` to see the site
  * change the site code which uses markdown (http://daringfireball.net/projects/markdown/syntax) to generate html but you can anytime use plain html aswell
  * review your changes by checking `http://localhost:4000`
+
+Note:
+
+There is a rake task. Run 
+
+    rake default
+
+to have compass watch the sass stuff, jekyll watch the html stuff, start a local webserver, and open firefox onto it.
