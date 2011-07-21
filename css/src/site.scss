@@ -1,50 +1,30 @@
+$red: #980905;
+
 /** resets **/
-/* line 5, ../src/site.scss */
-* {
-  margin: 0;
-  padding: 0;
-}
 
-/* line 6, ../src/site.scss */
-a:active {
-  outline: none;
-}
-
-/* line 7, ../src/site.scss */
-a:focus {
-  -moz-outline-style: none;
-}
-
-/* line 8, ../src/site.scss */
-ul, ol {
-  list-style-position: inside;
-}
-
-/* line 9, ../src/site.scss */
+*         { margin: 0; padding: 0; }
+a:active  { outline: none; }
+a:focus   { -moz-outline-style: none; }
+ul, ol    { list-style-position: inside; }
 ul li {
   padding-left: 1.2em;
   text-indent: -1em;
 }
-
 /** resets **/
-/* line 15, ../src/site.scss */
+
 p {
   margin-top: 0.6em;
   margin-bottom: 0.6em;
 }
 
-/* line 20, ../src/site.scss */
 a {
-  color: #980905;
+  color: $red;
   text-decoration: none;
 }
 
-/* line 25, ../src/site.scss */
 a:hover {
   text-decoration: underline;
 }
-
-/* line 28, ../src/site.scss */
 body {
   font-family: "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   font-size: 13px;
@@ -53,22 +33,18 @@ body {
   position: relative;
 }
 
-/* line 36, ../src/site.scss */
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz', "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
-/* line 40, ../src/site.scss */
 h1 {
   font-size: 3.2em;
 }
 
-/* line 44, ../src/site.scss */
 .slogan {
   font-size: 1.2em;
 }
 
-/* line 48, ../src/site.scss */
 h2 {
   font-size: 2.4em;
   width: 20em;
@@ -76,60 +52,61 @@ h2 {
   margin-bottom: 0.6em;
 }
 
-/* line 55, ../src/site.scss */
 h3 {
   font-size: 1.6em;
   margin-top: 0.6em;
   margin-bottom: 0.6em;
+  
 }
 
 /* all textual parts are moved inside for 3em */
-/* line 64, ../src/site.scss */
+
 #wrapper > * {
   padding-left: 3em;
   position: relative;
 }
 
 /* all texts are moved inside $paddingleft */
-/* line 71, ../src/site.scss */
+
 ul#navigation {
   font-size: 1.1em;
-  background: #980905;
+  
+  background: $red;
   margin-top: 1em;
   margin-bottom: 2em;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
   position: relative;
-}
-/* line 81, ../src/site.scss */
-ul#navigation li {
-  display: inline;
-  padding-right: 2em;
-}
-/* line 85, ../src/site.scss */
-ul#navigation li a {
-  color: white;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
-  text-decoration: none;
-}
-/* line 93, ../src/site.scss */
-ul#navigation li a:hover {
-  color: #980905;
-  background: #fff;
+  
+  li {
+    display: inline;
+    padding-right: 2em;
+    
+    a {
+      color: white;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: 0.3em;
+      padding-bottom: 0.3em;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $red;
+      background: #fff;
+    }
+
+  }
 }
 
 /* The main content areaa */
-/* line 103, ../src/site.scss */
+
 #main {
   width: 60em;
   padding-bottom: 2em;
 }
 
 /* sidebar */
-/* line 110, ../src/site.scss */
+
 #sidebar {
   background: rgba(200, 200, 200, 0.5);
   position: absolute;
@@ -141,32 +118,30 @@ ul#navigation li a:hover {
   height: 600px;
 }
 
-/* line 121, ../src/site.scss */
 .warning {
-  background: url("http://guides.rubyonrails.org/images/tab_yellow.gif") no-repeat scroll left top #fff9d8;
+  background: url("http://guides.rubyonrails.org/images/tab_yellow.gif") no-repeat scroll left top #FFF9D8;
   border: medium none;
   margin: 0.25em 4em 1em 2em;
   min-height: 2em;
   padding: 1.25em 1.25em 1.25em 48px;
 }
 
-/* line 129, ../src/site.scss */
 .warning a {
   color: #980905;
 }
 
 /* a single post */
-/* line 136, ../src/site.scss */
-.post .content {
-  margin-left: 1em;
+
+.post {
+  .content {
+    margin-left: 1em;
+  }
 }
 
-/* line 141, ../src/site.scss */
 .post h3 {
   display: inline-block;
 }
 
-/* line 145, ../src/site.scss */
 .post .permalink {
   margin-left: 3em;
 }

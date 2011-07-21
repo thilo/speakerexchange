@@ -5,50 +5,30 @@
      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
      <title>{{ page.title }} - User Group Speaker Exchange</title>
      <meta name="author" content="Thilo Utke" />
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&v2' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="/css/stylesheets/site.css" type="text/css" />
   </head>
   <body>
     <div id="wrapper">
       <div id="header">
-        <h1>User Group Speaker Exchange</h1>
+        <h1>Welcome to the Ruby User Group Speaker Exchange</h1>
+        <div class="slogan">…connecting Ruby User Groups throughout Europe since 2011.</div>
       </div>
-      <div id="navigation">
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          <li>
-          <li>
-            <a href="/archive.html">Updates</a>
-          </li>
-          <li>
-            <a href="/about.html">About</a>
-          </li>
-        </ul>
-      </div>
-      <div id="content">
+      <ul id="navigation">
+        <li><a href="/">About…</a></li>
+        <li><a href="/more.html">More…</a></li>
+        <li><a href="http://groups.google.com/group/usergroup-speaker-exchange" target="_blank">Google Group</a></li>
+        <li><a href="/archive.html">Updates</a></li>
+        <li><a href="/imprint.html">Imprint</a></li>
+      </ul>
+      <div id="main">
+        <h2>{{ page.title }}</h2>
         {{ content }}
       </div>
-      <div class="clearer"></div>
-      <div id="footer">
-        <ul>
-          <li>
-            <a href="https://docs.google.com/document/d/1svmhGQkjFJxahxnXm1eKarfB0gX_xekjYvum4jOJWAE/edit?hl=en_US">Google docs</a>
-          <li>
-          |
-          <li>
-            <a href="http://groups.google.com/group/usergroup-speaker-exchange">Google Group</a>
-          <li>
-          |
-          <li>
-            <a href="/archive.html">Updates</a>
-          </li>
-          |
-          <li>
-            <a href="/about.html">About</a>
-          </li>
-        </ul>
-      <div>
+    </div>
+    <div id="sidebar">
+      {% include sidebar.md %}
     </div>
   </body>
 </html>
