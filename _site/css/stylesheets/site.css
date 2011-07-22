@@ -104,9 +104,10 @@ ul#navigation {
 /* line 82, ../src/site.scss */
 ul#navigation li {
   display: inline;
-  padding-right: 2em;
+  padding-right: 1em;
+  padding-left: 0;
 }
-/* line 86, ../src/site.scss */
+/* line 87, ../src/site.scss */
 ul#navigation li a {
   color: white;
   padding-left: 1em;
@@ -115,21 +116,21 @@ ul#navigation li a {
   padding-bottom: 0.3em;
   text-decoration: none;
 }
-/* line 94, ../src/site.scss */
+/* line 95, ../src/site.scss */
 ul#navigation li a:hover {
   color: #980905;
   background: #fff;
 }
 
 /* The main content areaa */
-/* line 104, ../src/site.scss */
+/* line 105, ../src/site.scss */
 #main {
   width: 60em;
   padding-bottom: 2em;
 }
 
 /* sidebar */
-/* line 111, ../src/site.scss */
+/* line 112, ../src/site.scss */
 #sidebar {
   background: rgba(200, 200, 200, 0.5);
   position: absolute;
@@ -141,7 +142,7 @@ ul#navigation li a:hover {
   height: 600px;
 }
 
-/* line 122, ../src/site.scss */
+/* line 123, ../src/site.scss */
 .warning {
   background: url("http://guides.rubyonrails.org/images/tab_yellow.gif") no-repeat scroll left top #fff9d8;
   border: medium none;
@@ -150,23 +151,23 @@ ul#navigation li a:hover {
   padding: 1.25em 1.25em 1.25em 48px;
 }
 
-/* line 130, ../src/site.scss */
+/* line 131, ../src/site.scss */
 .warning a {
   color: #980905;
 }
 
 /* a single post */
-/* line 137, ../src/site.scss */
+/* line 138, ../src/site.scss */
 .post .content {
   margin-left: 1em;
 }
 
-/* line 142, ../src/site.scss */
+/* line 143, ../src/site.scss */
 .post h3 {
   display: inline-block;
 }
 
-/* line 146, ../src/site.scss */
+/* line 147, ../src/site.scss */
 .post .permalink {
   margin-left: 3em;
 }
