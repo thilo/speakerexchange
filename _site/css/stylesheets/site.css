@@ -61,22 +61,22 @@ h1, h2, h3 {
 /* line 40, ../src/site.scss */
 h1 {
   font-size: 3.2em;
+  max-width: 1000px;
 }
 
-/* line 44, ../src/site.scss */
+/* line 45, ../src/site.scss */
 .slogan {
   font-size: 1.2em;
 }
 
-/* line 48, ../src/site.scss */
+/* line 49, ../src/site.scss */
 h2 {
   font-size: 2.4em;
-  width: 20em;
   margin-top: 1em;
   margin-bottom: 0.6em;
 }
 
-/* line 55, ../src/site.scss */
+/* line 56, ../src/site.scss */
 h3 {
   font-size: 1.6em;
   margin-top: 0.6em;
@@ -84,14 +84,14 @@ h3 {
 }
 
 /* all textual parts are moved inside for 3em */
-/* line 64, ../src/site.scss */
+/* line 65, ../src/site.scss */
 #wrapper > * {
   padding-left: 3em;
   position: relative;
 }
 
 /* all texts are moved inside $paddingleft */
-/* line 71, ../src/site.scss */
+/* line 72, ../src/site.scss */
 ul#navigation {
   font-size: 1.1em;
   background: #980905;
@@ -101,12 +101,12 @@ ul#navigation {
   padding-bottom: 0.3em;
   position: relative;
 }
-/* line 81, ../src/site.scss */
+/* line 82, ../src/site.scss */
 ul#navigation li {
   display: inline;
   padding-right: 2em;
 }
-/* line 85, ../src/site.scss */
+/* line 86, ../src/site.scss */
 ul#navigation li a {
   color: white;
   padding-left: 1em;
@@ -115,21 +115,21 @@ ul#navigation li a {
   padding-bottom: 0.3em;
   text-decoration: none;
 }
-/* line 93, ../src/site.scss */
+/* line 94, ../src/site.scss */
 ul#navigation li a:hover {
   color: #980905;
   background: #fff;
 }
 
 /* The main content areaa */
-/* line 103, ../src/site.scss */
+/* line 104, ../src/site.scss */
 #main {
   width: 60em;
   padding-bottom: 2em;
 }
 
 /* sidebar */
-/* line 110, ../src/site.scss */
+/* line 111, ../src/site.scss */
 #sidebar {
   background: rgba(200, 200, 200, 0.5);
   position: absolute;
@@ -141,7 +141,7 @@ ul#navigation li a:hover {
   height: 600px;
 }
 
-/* line 121, ../src/site.scss */
+/* line 122, ../src/site.scss */
 .warning {
   background: url("http://guides.rubyonrails.org/images/tab_yellow.gif") no-repeat scroll left top #fff9d8;
   border: medium none;
@@ -150,23 +150,23 @@ ul#navigation li a:hover {
   padding: 1.25em 1.25em 1.25em 48px;
 }
 
-/* line 129, ../src/site.scss */
+/* line 130, ../src/site.scss */
 .warning a {
   color: #980905;
 }
 
 /* a single post */
-/* line 136, ../src/site.scss */
+/* line 137, ../src/site.scss */
 .post .content {
   margin-left: 1em;
 }
 
-/* line 141, ../src/site.scss */
+/* line 142, ../src/site.scss */
 .post h3 {
   display: inline-block;
 }
 
-/* line 145, ../src/site.scss */
+/* line 146, ../src/site.scss */
 .post .permalink {
   margin-left: 3em;
 }
