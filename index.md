@@ -15,11 +15,13 @@ The Ruby User Group Speaker Exchange connects Ruby User Groups throughout Europe
 The following user groups have joined so far:
 
 * [Amsterdam - Netherlands](http://amsterdam-rb.org/) (Josh Kalderimis)
-* [Berlin - Germany] (http://rug-b.de) (Thilo Utke)
+* [Berlin - Germany](http://rug-b.de) (Thilo Utke)
 * [Edinburgh - Scotland](http://scotrug.org/) (Paul Wilson)
 * [Krakow - Poland](http://www.ruby.org.pl/) (Maciej Książek)
 * [London - UK](http://lrug.org/) (Murray Steele)
+* [Stockholm - Sweden](http://rails.se/rails/show/HomePage)
 * [Surrey - UK](http://surreyrubyists.tumblr.com)
 * [Tallinn - Estonia](http://ruby.ee/en) (Priit Tamboom)
+
 
 If you want to support the exchange by sponsoring or participating please join our [Google Group](http://groups.google.com/group/usergroup-speaker-exchange).
