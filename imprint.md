@@ -2,9 +2,6 @@
 layout: default
 title: Imprint
 ---
-
-# imprint
-
 Site maintained by:<br/>
 Lukas Rieder<br/>
 Ruby Berlin e.V.<br/>
